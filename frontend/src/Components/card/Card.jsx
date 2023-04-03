@@ -14,7 +14,7 @@ const Card = () => {
 
   const cardDesktopView = () => {
     return (
-      <div className="row d-flex align-items-center card_container">
+      <div className="row d-flex align-items-center card_container p-2">
         <Badge title={"USERS CHOICE"} />
         <div className="col-12 col-md-1 col-lg-1"><span className="number">01</span></div>
         <div className="col-6 col-md-3 col-lg-2">
@@ -55,6 +55,7 @@ const Card = () => {
             </div>
           </>
         )}
+        <span style={{ fontSize: '12px', textAlign: 'left', marginTop: '10px' }}>18+ - Minimum bet amount - 100 - Some other important information - Terms&Conditions text - <>Terms&ConditionsLink.com</></span>
       </div>
     )
   }
@@ -97,6 +98,7 @@ const Card = () => {
         <div>
           <BulletListItems isOneLine='true' />
         </div>
+        <span style={{ fontSize: '10px' }}>18+ - Minimum bet amount - 100 - Some other important information - Terms&Conditions text - <>Terms&ConditionsLink.com</></span>
       </div>
     )
   }
