@@ -1,6 +1,7 @@
 .card_container {
     border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+        -2px -2px 4px rgba(0, 0, 0, 0.2);
     padding: 15px 0;
     margin-top: 10px;
     position: relative;
@@ -16,4 +17,16 @@
     margin-right: 5px;
     font-size: 18px;
     font-weight: 800;
+}
+
+@media (max-width: 600px) {
+    .number {
+        text-align: right;
+    }
+}
+
+@media (max-width: 600px) {
+    .card_container {
+        margin: 10px;
+    }
 }

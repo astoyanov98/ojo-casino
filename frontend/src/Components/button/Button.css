@@ -8,3 +8,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .buttonContainer {
+        margin-top: 10px;
+    }
+}
