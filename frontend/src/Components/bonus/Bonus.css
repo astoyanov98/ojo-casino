@@ -1,0 +1,22 @@
+.container_bonus {
+    border: 1px solid #00aa57;
+    padding: 15px 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+.title {
+    position: absolute;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 600;
+    top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 5px;
+}
+
+.bonus {
+    font-size: 24px;
+    font-weight: 700;
+}

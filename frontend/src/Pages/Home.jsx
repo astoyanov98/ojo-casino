@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col">
+        <div className="col-md-10">
           <h3>LES MEILLEURS CASINOS EN LIGNE DU MOMENT</h3>
           <span>
             Tous nos casinos sont: <img src={lock} /> Autorise{" "}
@@ -16,8 +16,10 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="">
-        <Card />
+      <div className="row justify-content-center">
+        <div className="col-md-10">
+          <Card />
+        </div>    
       </div>
     </div>
   );

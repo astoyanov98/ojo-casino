@@ -1,4 +1,19 @@
 .card_container {
-    border-radius: 20px;
-    box-shadow: inset;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    margin-top: 10px;
+    position: relative;
+}
+
+.rating {
+    font-weight: 600;
+    color: #ffc400;
+}
+
+.number {
+    color: #ff5733;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 800;
 }
